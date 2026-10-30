@@ -1,0 +1,19 @@
+{
+  "feature_version": "tree-arithmetic-v1",
+  "selection": {
+    "depth": 4,
+    "trees": 600,
+    "validation": {
+      "all": {
+        "correct": 722,
+        "n": 798,
+        "accuracy": 90.47619047619048
+      },
+      "disagreement": {
+        "correct": 279,
+        "n": 355,
+        "accuracy": 78.59154929577464
+      }
+    }
+  }
+}

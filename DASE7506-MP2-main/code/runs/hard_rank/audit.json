@@ -1,0 +1,47 @@
+{
+  "definition": "At least two distinct non-None parsed candidate answers",
+  "train": {
+    "total": 4755,
+    "disagreement": 2114
+  },
+  "validation": {
+    "total": 798,
+    "disagreement": 355
+  },
+  "baselines": {
+    "mlp": {
+      "all": {
+        "correct": 733,
+        "n": 798,
+        "accuracy": 91.8546365914787
+      },
+      "disagreement": {
+        "correct": 292,
+        "n": 355,
+        "accuracy": 82.25352112676056
+      },
+      "other": {
+        "correct": 441,
+        "n": 443,
+        "accuracy": 99.54853273137698
+      }
+    },
+    "fusion": {
+      "all": {
+        "correct": 737,
+        "n": 798,
+        "accuracy": 92.35588972431077
+      },
+      "disagreement": {
+        "correct": 294,
+        "n": 355,
+        "accuracy": 82.8169014084507
+      },
+      "other": {
+        "correct": 443,
+        "n": 443,
+        "accuracy": 100.0
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "members": [
+    "seed_17.npz",
+    "seed_29.npz",
+    "seed_43.npz"
+  ],
+  "architecture": {
+    "name": "small",
+    "hidden": 64,
+    "dropout": 0.35,
+    "lr": 0.0003,
+    "weight_decay": 0.01
+  },
+  "feature_dimension": 2053,
+  "aggregation": "mean of member softmax probabilities"
+}

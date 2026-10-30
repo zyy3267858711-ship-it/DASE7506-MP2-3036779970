@@ -1,0 +1,35 @@
+{
+  "protocol": "dase7506-mp2-open-hard-verifier-v5",
+  "benchmark": "DASE7506 Open Reasoning Verification \u2014 informative evaluation",
+  "splits": {
+    "train": 4755,
+    "validation": 798,
+    "test": 467
+  },
+  "candidates_per_question": 4,
+  "feature_shapes": {
+    "embeddings": [
+      "4*N",
+      1024
+    ]
+  },
+  "selection": "All original train/validation; test/audit contain at least two distinct valid answers; each group has at least one correct final answer",
+  "source": {
+    "dataset": "openai/gsm8k",
+    "generation_model": "Qwen/Qwen3-0.6B",
+    "revision": "c1899de289a04d12100db370d81485cdf75e47ca"
+  },
+  "sha256": {
+    "LICENSE.txt": "86bbb73e855821d7c401912fd4bf82e34313e6e3b6fd6f909f2b6cc9e209a53b",
+    "candidates/gsm8k_test.jsonl": "1d7b4cc651bbe7258b59c3ab4af4b0f8b6b0975975d98dadea3a4050d78b6e70",
+    "candidates/gsm8k_test.npz": "b0805775b3902fa363253c83b850fc59c359d886a449fe4444393b8e355f0f63",
+    "candidates/gsm8k_train.jsonl": "38fa2e71c030ae301e6a87366e0700453a56d14abe73f2d14504b9cd0749ed43",
+    "candidates/gsm8k_train.npz": "3bb3d5dcbc71dc64e671c03f965594f91e195acd2be01012476d8b966a6ba1d2",
+    "candidates/gsm8k_validation.jsonl": "f2ca7c7c7effa91e6a2e99c597ae13b9369d776f0c08d68622e8671b8229045a",
+    "candidates/gsm8k_validation.npz": "a0c6c8e1919bf7e7ffe887b39954e0c905bbd4429b05135fe3fc9f4087a2c881",
+    "gsm8k_test.jsonl": "60fe0e964e2e70c05f612823a04655a474512bf73821fafa88111313a9d87c16",
+    "gsm8k_train.jsonl": "acc662ed0328b5d38b2dee6f72ddcc956073df4ffb2ef4c4ba668cf445a92003",
+    "gsm8k_validation.jsonl": "ae1522df02497e780909e208ffb4101788e97b4a5eabf883c56bb7fe40d13025",
+    "NOTICE.txt": "d577cdf7202ae22f2b19ace348b0ec69958a59aaf51d30cdab902bf7c1e67d78"
+  }
+}

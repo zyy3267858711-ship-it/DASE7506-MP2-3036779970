@@ -1,0 +1,49 @@
+{
+  "python": "3.12.4",
+  "numpy": "1.26.4",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "AMD64 Family 25 Model 68 Stepping 1, AuthenticAMD",
+  "seed": null,
+  "seed_note": "No random sampling or random initialization used.",
+  "selection_rule": "Highest validation accuracy; ties keep the earlier method.",
+  "selected_mode": "combined",
+  "selected_validation_accuracy": 90.22556390977444,
+  "training_and_search_seconds": 2.335897600001772,
+  "experiments": [
+    {
+      "mode": "majority",
+      "alpha": null,
+      "validation_accuracy": 86.21553884711778
+    },
+    {
+      "mode": "embedding",
+      "alpha": 0.1,
+      "validation_accuracy": 89.72431077694235
+    },
+    {
+      "mode": "embedding",
+      "alpha": 1.0,
+      "validation_accuracy": 88.7218045112782
+    },
+    {
+      "mode": "embedding",
+      "alpha": 10.0,
+      "validation_accuracy": 85.71428571428571
+    },
+    {
+      "mode": "combined",
+      "alpha": 0.1,
+      "validation_accuracy": 89.72431077694235
+    },
+    {
+      "mode": "combined",
+      "alpha": 1.0,
+      "validation_accuracy": 90.22556390977444
+    },
+    {
+      "mode": "combined",
+      "alpha": 10.0,
+      "validation_accuracy": 88.22055137844612
+    }
+  ]
+}

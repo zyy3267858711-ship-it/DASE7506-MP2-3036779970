@@ -1,0 +1,5 @@
+{
+  "selected_mode": "combined",
+  "checkpoint": "runs/selected",
+  "selected_using": "validation accuracy only"
+}

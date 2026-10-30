@@ -1,0 +1,17 @@
+{
+  "all": {
+    "correct": 736,
+    "n": 798,
+    "accuracy": 92.23057644110276
+  },
+  "disagreement": {
+    "correct": 293,
+    "n": 355,
+    "accuracy": 82.53521126760563
+  },
+  "other": {
+    "correct": 443,
+    "n": 443,
+    "accuracy": 100.0
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "python": "3.12.4",
+  "numpy": "1.26.4",
+  "catboost": "1.2.10",
+  "device": "GPU",
+  "seed": 17,
+  "selection_rule": "disagreement validation correct count, then all validation correct count; earlier wins ties",
+  "training_weight": "disagreement=1; other=0.2",
+  "selected": {
+    "depth": 4,
+    "trees": 600,
+    "validation": {
+      "all": {
+        "correct": 722,
+        "n": 798,
+        "accuracy": 90.47619047619048
+      },
+      "disagreement": {
+        "correct": 279,
+        "n": 355,
+        "accuracy": 78.59154929577464
+      }
+    }
+  },
+  "asset_bytes": 271467,
+  "training_search_seconds": 130.85257699999784,
+  "experiments": [
+    {
+      "depth": 4,
+      "trees": 200,
+      "validation": {
+        "all": {
+          "correct": 713,
+          "n": 798,
+          "accuracy": 89.3483709273183
+        },
+        "disagreement": {
+          "correct": 270,
+          "n": 355,
+          "accuracy": 76.05633802816901
+        }
+      }
+    },
+    {
+      "depth": 4,
+      "trees": 400,
+      "validation": {
+        "all": {
+          "correct": 717,
+          "n": 798,
+          "accuracy": 89.84962406015038
+        },
+        "disagreement": {
+          "correct": 274,
+          "n": 355,
+          "accuracy": 77.1830985915493
+        }
+      }
+    },
+    {
+      "depth": 4,
+      "trees": 600,
+      "validation": {
+        "all": {
+          "correct": 722,
+          "n": 798,
+          "accuracy": 90.47619047619048
+        },
+        "disagreement": {
+          "correct": 279,
+          "n": 355,
+          "accuracy": 78.59154929577464
+        }
+      }
+    },
+    {
+      "depth": 4,
+      "trees": 800,
+      "validation": {
+        "all": {
+          "correct": 720,
+          "n": 798,
+          "accuracy": 90.22556390977444
+        },
+        "disagreement": {
+          "correct": 277,
+          "n": 355,
+          "accuracy": 78.02816901408451
+        }
+      }
+    },
+    {
+      "depth": 4,
+      "trees": 1000,
+      "validation": {
+        "all": {
+          "correct": 721,
+          "n": 798,
+          "accuracy": 90.35087719298245
+        },
+        "disagreement": {
+          "correct": 278,
+          "n": 355,
+          "accuracy": 78.30985915492958
+        }
+      }
+    },
+    {
+      "depth": 6,
+      "trees": 200,
+      "validation": {
+        "all": {
+          "correct": 714,
+          "n": 798,
+          "accuracy": 89.47368421052632
+        },
+        "disagreement": {
+          "correct": 271,
+          "n": 355,
+          "accuracy": 76.33802816901408
+        }
+      }
+    },
+    {
+      "depth": 6,
+      "trees": 400,
+      "validation": {
+        "all": {
+          "correct": 719,
+          "n": 798,
+          "accuracy": 90.10025062656642
+        },
+        "disagreement": {
+          "correct": 276,
+          "n": 355,
+          "accuracy": 77.74647887323944
+        }
+      }
+    },
+    {
+      "depth": 6,
+      "trees": 600,
+      "validation": {
+        "all": {
+          "correct": 722,
+          "n": 798,
+          "accuracy": 90.47619047619048
+        },
+        "disagreement": {
+          "correct": 279,
+          "n": 355,
+          "accuracy": 78.59154929577464
+        }
+      }
+    },
+    {
+      "depth": 6,
+      "trees": 800,
+      "validation": {
+        "all": {
+          "correct": 722,
+          "n": 798,
+          "accuracy": 90.47619047619048
+        },
+        "disagreement": {
+          "correct": 279,
+          "n": 355,
+          "accuracy": 78.59154929577464
+        }
+      }
+    },
+    {
+      "depth": 6,
+      "trees": 1000,
+      "validation": {
+        "all": {
+          "correct": 721,
+          "n": 798,
+          "accuracy": 90.35087719298245
+        },
+        "disagreement": {
+          "correct": 278,
+          "n": 355,
+          "accuracy": 78.30985915492958
+        }
+      }
+    }
+  ]
+}

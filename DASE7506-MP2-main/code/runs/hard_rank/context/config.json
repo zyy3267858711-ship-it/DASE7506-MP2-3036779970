@@ -1,0 +1,11 @@
+{
+  "name": "context",
+  "contextual": true,
+  "hidden": 128,
+  "dropout": 0.5,
+  "members": [
+    "seed_17.npz",
+    "seed_29.npz",
+    "seed_43.npz"
+  ]
+}

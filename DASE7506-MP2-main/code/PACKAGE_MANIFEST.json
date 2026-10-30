@@ -1,0 +1,25 @@
+{
+  "protocol": "dase7506-mp2-open-hard-verifier-v5",
+  "files": {
+    "code/README.md": "4c4218d68818d850fbad2fe38d2b1f3d2b80b7646720f21d2356fe3c0e020bc2",
+    "code/check_data.py": "32f203e156e3019f87bb038ade4f303da21ca2f1694bb678a3ddc44661f0b533",
+    "code/common.py": "aecd10f7ff2e9e82ac5673d34d576e122caac51d2caaa7c7a8aa05906da51f6c",
+    "code/data/LICENSE.txt": "86bbb73e855821d7c401912fd4bf82e34313e6e3b6fd6f909f2b6cc9e209a53b",
+    "code/data/NOTICE.txt": "d577cdf7202ae22f2b19ace348b0ec69958a59aaf51d30cdab902bf7c1e67d78",
+    "code/data/candidates/gsm8k_test.jsonl": "1d7b4cc651bbe7258b59c3ab4af4b0f8b6b0975975d98dadea3a4050d78b6e70",
+    "code/data/candidates/gsm8k_test.npz": "b0805775b3902fa363253c83b850fc59c359d886a449fe4444393b8e355f0f63",
+    "code/data/candidates/gsm8k_train.jsonl": "38fa2e71c030ae301e6a87366e0700453a56d14abe73f2d14504b9cd0749ed43",
+    "code/data/candidates/gsm8k_train.npz": "3bb3d5dcbc71dc64e671c03f965594f91e195acd2be01012476d8b966a6ba1d2",
+    "code/data/candidates/gsm8k_validation.jsonl": "f2ca7c7c7effa91e6a2e99c597ae13b9369d776f0c08d68622e8671b8229045a",
+    "code/data/candidates/gsm8k_validation.npz": "a0c6c8e1919bf7e7ffe887b39954e0c905bbd4429b05135fe3fc9f4087a2c881",
+    "code/data/gsm8k_test.jsonl": "60fe0e964e2e70c05f612823a04655a474512bf73821fafa88111313a9d87c16",
+    "code/data/gsm8k_train.jsonl": "acc662ed0328b5d38b2dee6f72ddcc956073df4ffb2ef4c4ba668cf445a92003",
+    "code/data/gsm8k_validation.jsonl": "ae1522df02497e780909e208ffb4101788e97b4a5eabf883c56bb7fe40d13025",
+    "code/data/manifest.json": "8b3721d458e48c87eab3a28f660e663981b10617b6e7321123c6ff30b1fbe825",
+    "code/predict.py": "e7a627fbdc9ef8d4ab3189a6fa5ac02d56ae703ccd1a81507aea0bd66e042162",
+    "code/requirements.txt": "5c12d85e7c08038d1dd9ffbf8119d12ce808885230a47e2bf65dcd9f114659d5",
+    "code/score_predictions.py": "fe12b809b82117aea722e5dfef7a55a88950a7cf50c49ec2ea007ea847959960",
+    "code/submission.py": "37dcf01801937c4ba13a05a018b352afd2ff264541035143efa955ca31e24c10",
+    "guide/GUIDE.md": "7b4ab87265040f407854cdfb9860887f722008d24e03fffe311f99c2f2065130"
+  }
+}

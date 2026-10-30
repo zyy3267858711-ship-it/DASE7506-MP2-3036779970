@@ -1,0 +1,1728 @@
+{
+  "python": "3.12.4",
+  "numpy": "1.26.4",
+  "torch": "2.7.1+cu126",
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "selected_seed_model": "member_29.npz",
+  "asset_bytes": 1905486,
+  "training_seconds": 153.0618250999978,
+  "validation_results": [
+    {
+      "seed": 17,
+      "best_epoch": 27,
+      "best_validation_key": [
+        296,
+        739
+      ],
+      "history": [
+        {
+          "epoch": 1,
+          "loss": 1.508386448580384,
+          "validation": {
+            "all": {
+              "correct": 721,
+              "n": 798,
+              "accuracy": 90.35087719298245
+            },
+            "disagreement": {
+              "correct": 278,
+              "n": 355,
+              "accuracy": 78.30985915492958
+            }
+          }
+        },
+        {
+          "epoch": 2,
+          "loss": 1.4731128162640754,
+          "validation": {
+            "all": {
+              "correct": 735,
+              "n": 798,
+              "accuracy": 92.10526315789474
+            },
+            "disagreement": {
+              "correct": 292,
+              "n": 355,
+              "accuracy": 82.25352112676056
+            }
+          }
+        },
+        {
+          "epoch": 3,
+          "loss": 1.4417524522285983,
+          "validation": {
+            "all": {
+              "correct": 732,
+              "n": 798,
+              "accuracy": 91.72932330827068
+            },
+            "disagreement": {
+              "correct": 289,
+              "n": 355,
+              "accuracy": 81.40845070422536
+            }
+          }
+        },
+        {
+          "epoch": 4,
+          "loss": 1.4121355567194058,
+          "validation": {
+            "all": {
+              "correct": 735,
+              "n": 798,
+              "accuracy": 92.10526315789474
+            },
+            "disagreement": {
+              "correct": 292,
+              "n": 355,
+              "accuracy": 82.25352112676056
+            }
+          }
+        },
+        {
+          "epoch": 5,
+          "loss": 1.388871517066073,
+          "validation": {
+            "all": {
+              "correct": 729,
+              "n": 798,
+              "accuracy": 91.35338345864662
+            },
+            "disagreement": {
+              "correct": 286,
+              "n": 355,
+              "accuracy": 80.56338028169014
+            }
+          }
+        },
+        {
+          "epoch": 6,
+          "loss": 1.3772972810656992,
+          "validation": {
+            "all": {
+              "correct": 733,
+              "n": 798,
+              "accuracy": 91.8546365914787
+            },
+            "disagreement": {
+              "correct": 290,
+              "n": 355,
+              "accuracy": 81.69014084507042
+            }
+          }
+        },
+        {
+          "epoch": 7,
+          "loss": 1.3599419615371495,
+          "validation": {
+            "all": {
+              "correct": 732,
+              "n": 798,
+              "accuracy": 91.72932330827068
+            },
+            "disagreement": {
+              "correct": 289,
+              "n": 355,
+              "accuracy": 81.40845070422536
+            }
+          }
+        },
+        {
+          "epoch": 8,
+          "loss": 1.3502768044466726,
+          "validation": {
+            "all": {
+              "correct": 730,
+              "n": 798,
+              "accuracy": 91.47869674185463
+            },
+            "disagreement": {
+              "correct": 287,
+              "n": 355,
+              "accuracy": 80.84507042253522
+            }
+          }
+        },
+        {
+          "epoch": 9,
+          "loss": 1.340367189491585,
+          "validation": {
+            "all": {
+              "correct": 733,
+              "n": 798,
+              "accuracy": 91.8546365914787
+            },
+            "disagreement": {
+              "correct": 290,
+              "n": 355,
+              "accuracy": 81.69014084507042
+            }
+          }
+        },
+        {
+          "epoch": 10,
+          "loss": 1.3267905796614605,
+          "validation": {
+            "all": {
+              "correct": 735,
+              "n": 798,
+              "accuracy": 92.10526315789474
+            },
+            "disagreement": {
+              "correct": 292,
+              "n": 355,
+              "accuracy": 82.25352112676056
+            }
+          }
+        },
+        {
+          "epoch": 11,
+          "loss": 1.3230413795394977,
+          "validation": {
+            "all": {
+              "correct": 732,
+              "n": 798,
+              "accuracy": 91.72932330827068
+            },
+            "disagreement": {
+              "correct": 289,
+              "n": 355,
+              "accuracy": 81.40845070422536
+            }
+          }
+        },
+        {
+          "epoch": 12,
+          "loss": 1.3181442008033535,
+          "validation": {
+            "all": {
+              "correct": 733,
+              "n": 798,
+              "accuracy": 91.8546365914787
+            },
+            "disagreement": {
+              "correct": 290,
+              "n": 355,
+              "accuracy": 81.69014084507042
+            }
+          }
+        },
+        {
+          "epoch": 13,
+          "loss": 1.307281961350787,
+          "validation": {
+            "all": {
+              "correct": 732,
+              "n": 798,
+              "accuracy": 91.72932330827068
+            },
+            "disagreement": {
+              "correct": 289,
+              "n": 355,
+              "accuracy": 81.40845070422536
+            }
+          }
+        },
+        {
+          "epoch": 14,
+          "loss": 1.3019641601199483,
+          "validation": {
+            "all": {
+              "correct": 731,
+              "n": 798,
+              "accuracy": 91.60401002506266
+            },
+            "disagreement": {
+              "correct": 288,
+              "n": 355,
+              "accuracy": 81.12676056338029
+            }
+          }
+        },
+        {
+          "epoch": 15,
+          "loss": 1.2951775540814163,
+          "validation": {
+            "all": {
+              "correct": 731,
+              "n": 798,
+              "accuracy": 91.60401002506266
+            },
+            "disagreement": {
+              "correct": 288,
+              "n": 355,
+              "accuracy": 81.12676056338029
+            }
+          }
+        },
+        {
+          "epoch": 16,
+          "loss": 1.2878024673612336,
+          "validation": {
+            "all": {
+              "correct": 729,
+              "n": 798,
+              "accuracy": 91.35338345864662
+            },
+            "disagreement": {
+              "correct": 286,
+              "n": 355,
+              "accuracy": 80.56338028169014
+            }
+          }
+        },
+        {
+          "epoch": 17,
+          "loss": 1.277343641771503,
+          "validation": {
+            "all": {
+              "correct": 731,
+              "n": 798,
+              "accuracy": 91.60401002506266
+            },
+            "disagreement": {
+              "correct": 288,
+              "n": 355,
+              "accuracy": 81.12676056338029
+            }
+          }
+        },
+        {
+          "epoch": 18,
+          "loss": 1.2711141356409035,
+          "validation": {
+            "all": {
+              "correct": 737,
+              "n": 798,
+              "accuracy": 92.35588972431077
+            },
+            "disagreement": {
+              "correct": 294,
+              "n": 355,
+              "accuracy": 82.8169014084507
+            }
+          }
+        },
+        {
+          "epoch": 19,
+          "loss": 1.2663816553811795,
+          "validation": {
+            "all": {
+              "correct": 737,
+              "n": 798,
+              "accuracy": 92.35588972431077
+            },
+            "disagreement": {
+              "correct": 294,
+              "n": 355,
+              "accuracy": 82.8169014084507
+            }
+          }
+        },
+        {
+          "epoch": 20,
+          "loss": 1.2577278031410353,
+          "validation": {
+            "all": {
+              "correct": 733,
+              "n": 798,
+              "accuracy": 91.8546365914787
+            },
+            "disagreement": {
+              "correct": 290,
+              "n": 355,
+              "accuracy": 81.69014084507042
+            }
+          }
+        },
+        {
+          "epoch": 21,
+          "loss": 1.2526193304392819,
+          "validation": {
+            "all": {
+              "correct": 736,
+              "n": 798,
+              "accuracy": 92.23057644110276
+            },
+            "disagreement": {
+              "correct": 293,
+              "n": 355,
+              "accuracy": 82.53521126760563
+            }
+          }
+        },
+        {
+          "epoch": 22,
+          "loss": 1.2472230703422074,
+          "validation": {
+            "all": {
+              "correct": 732,
+              "n": 798,
+              "accuracy": 91.72932330827068
+            },
+            "disagreement": {
+              "correct": 289,
+              "n": 355,
+              "accuracy": 81.40845070422536
+            }
+          }
+        },
+        {
+          "epoch": 23,
+          "loss": 1.2392665821420408,
+          "validation": {
+            "all": {
+              "correct": 731,
+              "n": 798,
+              "accuracy": 91.60401002506266
+            },
+            "disagreement": {
+              "correct": 288,
+              "n": 355,
+              "accuracy": 81.12676056338029
+            }
+          }
+        },
+        {
+          "epoch": 24,
+          "loss": 1.2329174552931519,
+          "validation": {
+            "all": {
+              "correct": 733,
+              "n": 798,
+              "accuracy": 91.8546365914787
+            },
+            "disagreement": {
+              "correct": 290,
+              "n": 355,
+              "accuracy": 81.69014084507042
+            }
+          }
+        },
+        {
+          "epoch": 25,
+          "loss": 1.2364153489705516,
+          "validation": {
+            "all": {
+              "correct": 733,
+              "n": 798,
+              "accuracy": 91.8546365914787
+            },
+            "disagreement": {
+              "correct": 290,
+              "n": 355,
+              "accuracy": 81.69014084507042
+            }
+          }
+        },
+        {
+          "epoch": 26,
+          "loss": 1.2259637229951523,
+          "validation": {
+            "all": {
+              "correct": 735,
+              "n": 798,
+              "accuracy": 92.10526315789474
+            },
+            "disagreement": {
+              "correct": 292,
+              "n": 355,
+              "accuracy": 82.25352112676056
+            }
+          }
+        },
+        {
+          "epoch": 27,
+          "loss": 1.2166131216394163,
+          "validation": {
+            "all": {
+              "correct": 739,
+              "n": 798,
+              "accuracy": 92.60651629072682
+            },
+            "disagreement": {
+              "correct": 296,
+              "n": 355,
+              "accuracy": 83.38028169014085
+            }
+          }
+        },
+        {
+          "epoch": 28,
+          "loss": 1.2090819908617423,
+          "validation": {
+            "all": {
+              "correct": 733,
+              "n": 798,
+              "accuracy": 91.8546365914787
+            },
+            "disagreement": {
+              "correct": 290,
+              "n": 355,
+              "accuracy": 81.69014084507042
+            }
+          }
+        },
+        {
+          "epoch": 29,
+          "loss": 1.2067062852259816,
+          "validation": {
+            "all": {
+              "correct": 736,
+              "n": 798,
+              "accuracy": 92.23057644110276
+            },
+            "disagreement": {
+              "correct": 293,
+              "n": 355,
+              "accuracy": 82.53521126760563
+            }
+          }
+        },
+        {
+          "epoch": 30,
+          "loss": 1.2000337000274257,
+          "validation": {
+            "all": {
+              "correct": 732,
+              "n": 798,
+              "accuracy": 91.72932330827068
+            },
+            "disagreement": {
+              "correct": 289,
+              "n": 355,
+              "accuracy": 81.40845070422536
+            }
+          }
+        },
+        {
+          "epoch": 31,
+          "loss": 1.192324357128043,
+          "validation": {
+            "all": {
+              "correct": 733,
+              "n": 798,
+              "accuracy": 91.8546365914787
+            },
+            "disagreement": {
+              "correct": 290,
+              "n": 355,
+              "accuracy": 81.69014084507042
+            }
+          }
+        },
+        {
+          "epoch": 32,
+          "loss": 1.1958444493300782,
+          "validation": {
+            "all": {
+              "correct": 734,
+              "n": 798,
+              "accuracy": 91.97994987468671
+            },
+            "disagreement": {
+              "correct": 291,
+              "n": 355,
+              "accuracy": 81.97183098591549
+            }
+          }
+        },
+        {
+          "epoch": 33,
+          "loss": 1.1927583739835257,
+          "validation": {
+            "all": {
+              "correct": 729,
+              "n": 798,
+              "accuracy": 91.35338345864662
+            },
+            "disagreement": {
+              "correct": 286,
+              "n": 355,
+              "accuracy": 80.56338028169014
+            }
+          }
+        },
+        {
+          "epoch": 34,
+          "loss": 1.1880473017567215,
+          "validation": {
+            "all": {
+              "correct": 733,
+              "n": 798,
+              "accuracy": 91.8546365914787
+            },
+            "disagreement": {
+              "correct": 290,
+              "n": 355,
+              "accuracy": 81.69014084507042
+            }
+          }
+        },
+        {
+          "epoch": 35,
+          "loss": 1.1829969402618088,
+          "validation": {
+            "all": {
+              "correct": 735,
+              "n": 798,
+              "accuracy": 92.10526315789474
+            },
+            "disagreement": {
+              "correct": 292,
+              "n": 355,
+              "accuracy": 82.25352112676056
+            }
+          }
+        },
+        {
+          "epoch": 36,
+          "loss": 1.1785043402675826,
+          "validation": {
+            "all": {
+              "correct": 725,
+              "n": 798,
+              "accuracy": 90.85213032581454
+            },
+            "disagreement": {
+              "correct": 282,
+              "n": 355,
+              "accuracy": 79.43661971830986
+            }
+          }
+        },
+        {
+          "epoch": 37,
+          "loss": 1.175487787615739,
+          "validation": {
+            "all": {
+              "correct": 730,
+              "n": 798,
+              "accuracy": 91.47869674185463
+            },
+            "disagreement": {
+              "correct": 287,
+              "n": 355,
+              "accuracy": 80.84507042253522
+            }
+          }
+        },
+        {
+          "epoch": 38,
+          "loss": 1.1710251359658788,
+          "validation": {
+            "all": {
+              "correct": 726,
+              "n": 798,
+              "accuracy": 90.97744360902256
+            },
+            "disagreement": {
+              "correct": 283,
+              "n": 355,
+              "accuracy": 79.71830985915493
+            }
+          }
+        },
+        {
+          "epoch": 39,
+          "loss": 1.1711549982663585,
+          "validation": {
+            "all": {
+              "correct": 734,
+              "n": 798,
+              "accuracy": 91.97994987468671
+            },
+            "disagreement": {
+              "correct": 291,
+              "n": 355,
+              "accuracy": 81.97183098591549
+            }
+          }
+        },
+        {
+          "epoch": 40,
+          "loss": 1.1629899258618601,
+          "validation": {
+            "all": {
+              "correct": 732,
+              "n": 798,
+              "accuracy": 91.72932330827068
+            },
+            "disagreement": {
+              "correct": 289,
+              "n": 355,
+              "accuracy": 81.40845070422536
+            }
+          }
+        },
+        {
+          "epoch": 41,
+          "loss": 1.1595560471718243,
+          "validation": {
+            "all": {
+              "correct": 731,
+              "n": 798,
+              "accuracy": 91.60401002506266
+            },
+            "disagreement": {
+              "correct": 288,
+              "n": 355,
+              "accuracy": 81.12676056338029
+            }
+          }
+        },
+        {
+          "epoch": 42,
+          "loss": 1.155266643096972,
+          "validation": {
+            "all": {
+              "correct": 728,
+              "n": 798,
+              "accuracy": 91.2280701754386
+            },
+            "disagreement": {
+              "correct": 285,
+              "n": 355,
+              "accuracy": 80.28169014084507
+            }
+          }
+        },
+        {
+          "epoch": 43,
+          "loss": 1.1472858741581753,
+          "validation": {
+            "all": {
+              "correct": 733,
+              "n": 798,
+              "accuracy": 91.8546365914787
+            },
+            "disagreement": {
+              "correct": 290,
+              "n": 355,
+              "accuracy": 81.69014084507042
+            }
+          }
+        },
+        {
+          "epoch": 44,
+          "loss": 1.1484419240059036,
+          "validation": {
+            "all": {
+              "correct": 738,
+              "n": 798,
+              "accuracy": 92.4812030075188
+            },
+            "disagreement": {
+              "correct": 295,
+              "n": 355,
+              "accuracy": 83.09859154929578
+            }
+          }
+        },
+        {
+          "epoch": 45,
+          "loss": 1.1467364002602836,
+          "validation": {
+            "all": {
+              "correct": 731,
+              "n": 798,
+              "accuracy": 91.60401002506266
+            },
+            "disagreement": {
+              "correct": 288,
+              "n": 355,
+              "accuracy": 81.12676056338029
+            }
+          }
+        }
+      ]
+    },
+    {
+      "seed": 29,
+      "best_epoch": 4,
+      "best_validation_key": [
+        297,
+        740
+      ],
+      "history": [
+        {
+          "epoch": 1,
+          "loss": 1.4983442430115148,
+          "validation": {
+            "all": {
+              "correct": 717,
+              "n": 798,
+              "accuracy": 89.84962406015038
+            },
+            "disagreement": {
+              "correct": 274,
+              "n": 355,
+              "accuracy": 77.1830985915493
+            }
+          }
+        },
+        {
+          "epoch": 2,
+          "loss": 1.4594746331937933,
+          "validation": {
+            "all": {
+              "correct": 726,
+              "n": 798,
+              "accuracy": 90.97744360902256
+            },
+            "disagreement": {
+              "correct": 283,
+              "n": 355,
+              "accuracy": 79.71830985915493
+            }
+          }
+        },
+        {
+          "epoch": 3,
+          "loss": 1.4244802867576527,
+          "validation": {
+            "all": {
+              "correct": 729,
+              "n": 798,
+              "accuracy": 91.35338345864662
+            },
+            "disagreement": {
+              "correct": 286,
+              "n": 355,
+              "accuracy": 80.56338028169014
+            }
+          }
+        },
+        {
+          "epoch": 4,
+          "loss": 1.3922112708588128,
+          "validation": {
+            "all": {
+              "correct": 740,
+              "n": 798,
+              "accuracy": 92.73182957393483
+            },
+            "disagreement": {
+              "correct": 297,
+              "n": 355,
+              "accuracy": 83.66197183098592
+            }
+          }
+        },
+        {
+          "epoch": 5,
+          "loss": 1.3764538553861665,
+          "validation": {
+            "all": {
+              "correct": 733,
+              "n": 798,
+              "accuracy": 91.8546365914787
+            },
+            "disagreement": {
+              "correct": 290,
+              "n": 355,
+              "accuracy": 81.69014084507042
+            }
+          }
+        },
+        {
+          "epoch": 6,
+          "loss": 1.3577587008350906,
+          "validation": {
+            "all": {
+              "correct": 732,
+              "n": 798,
+              "accuracy": 91.72932330827068
+            },
+            "disagreement": {
+              "correct": 289,
+              "n": 355,
+              "accuracy": 81.40845070422536
+            }
+          }
+        },
+        {
+          "epoch": 7,
+          "loss": 1.349083262562877,
+          "validation": {
+            "all": {
+              "correct": 731,
+              "n": 798,
+              "accuracy": 91.60401002506266
+            },
+            "disagreement": {
+              "correct": 288,
+              "n": 355,
+              "accuracy": 81.12676056338029
+            }
+          }
+        },
+        {
+          "epoch": 8,
+          "loss": 1.3396906586475552,
+          "validation": {
+            "all": {
+              "correct": 729,
+              "n": 798,
+              "accuracy": 91.35338345864662
+            },
+            "disagreement": {
+              "correct": 286,
+              "n": 355,
+              "accuracy": 80.56338028169014
+            }
+          }
+        },
+        {
+          "epoch": 9,
+          "loss": 1.333983551616047,
+          "validation": {
+            "all": {
+              "correct": 736,
+              "n": 798,
+              "accuracy": 92.23057644110276
+            },
+            "disagreement": {
+              "correct": 293,
+              "n": 355,
+              "accuracy": 82.53521126760563
+            }
+          }
+        },
+        {
+          "epoch": 10,
+          "loss": 1.3193512030831145,
+          "validation": {
+            "all": {
+              "correct": 734,
+              "n": 798,
+              "accuracy": 91.97994987468671
+            },
+            "disagreement": {
+              "correct": 291,
+              "n": 355,
+              "accuracy": 81.97183098591549
+            }
+          }
+        },
+        {
+          "epoch": 11,
+          "loss": 1.313937780082414,
+          "validation": {
+            "all": {
+              "correct": 732,
+              "n": 798,
+              "accuracy": 91.72932330827068
+            },
+            "disagreement": {
+              "correct": 289,
+              "n": 355,
+              "accuracy": 81.40845070422536
+            }
+          }
+        },
+        {
+          "epoch": 12,
+          "loss": 1.3090438448417576,
+          "validation": {
+            "all": {
+              "correct": 732,
+              "n": 798,
+              "accuracy": 91.72932330827068
+            },
+            "disagreement": {
+              "correct": 289,
+              "n": 355,
+              "accuracy": 81.40845070422536
+            }
+          }
+        },
+        {
+          "epoch": 13,
+          "loss": 1.2943243332591092,
+          "validation": {
+            "all": {
+              "correct": 736,
+              "n": 798,
+              "accuracy": 92.23057644110276
+            },
+            "disagreement": {
+              "correct": 293,
+              "n": 355,
+              "accuracy": 82.53521126760563
+            }
+          }
+        },
+        {
+          "epoch": 14,
+          "loss": 1.288197764964259,
+          "validation": {
+            "all": {
+              "correct": 729,
+              "n": 798,
+              "accuracy": 91.35338345864662
+            },
+            "disagreement": {
+              "correct": 286,
+              "n": 355,
+              "accuracy": 80.56338028169014
+            }
+          }
+        },
+        {
+          "epoch": 15,
+          "loss": 1.281416360361719,
+          "validation": {
+            "all": {
+              "correct": 730,
+              "n": 798,
+              "accuracy": 91.47869674185463
+            },
+            "disagreement": {
+              "correct": 287,
+              "n": 355,
+              "accuracy": 80.84507042253522
+            }
+          }
+        },
+        {
+          "epoch": 16,
+          "loss": 1.2794518967156154,
+          "validation": {
+            "all": {
+              "correct": 733,
+              "n": 798,
+              "accuracy": 91.8546365914787
+            },
+            "disagreement": {
+              "correct": 290,
+              "n": 355,
+              "accuracy": 81.69014084507042
+            }
+          }
+        },
+        {
+          "epoch": 17,
+          "loss": 1.2724943903342407,
+          "validation": {
+            "all": {
+              "correct": 735,
+              "n": 798,
+              "accuracy": 92.10526315789474
+            },
+            "disagreement": {
+              "correct": 292,
+              "n": 355,
+              "accuracy": 82.25352112676056
+            }
+          }
+        },
+        {
+          "epoch": 18,
+          "loss": 1.2634178419343807,
+          "validation": {
+            "all": {
+              "correct": 737,
+              "n": 798,
+              "accuracy": 92.35588972431077
+            },
+            "disagreement": {
+              "correct": 294,
+              "n": 355,
+              "accuracy": 82.8169014084507
+            }
+          }
+        },
+        {
+          "epoch": 19,
+          "loss": 1.25777388153016,
+          "validation": {
+            "all": {
+              "correct": 734,
+              "n": 798,
+              "accuracy": 91.97994987468671
+            },
+            "disagreement": {
+              "correct": 291,
+              "n": 355,
+              "accuracy": 81.97183098591549
+            }
+          }
+        },
+        {
+          "epoch": 20,
+          "loss": 1.2521234018193435,
+          "validation": {
+            "all": {
+              "correct": 738,
+              "n": 798,
+              "accuracy": 92.4812030075188
+            },
+            "disagreement": {
+              "correct": 295,
+              "n": 355,
+              "accuracy": 83.09859154929578
+            }
+          }
+        },
+        {
+          "epoch": 21,
+          "loss": 1.242977107686826,
+          "validation": {
+            "all": {
+              "correct": 738,
+              "n": 798,
+              "accuracy": 92.4812030075188
+            },
+            "disagreement": {
+              "correct": 295,
+              "n": 355,
+              "accuracy": 83.09859154929578
+            }
+          }
+        },
+        {
+          "epoch": 22,
+          "loss": 1.2355626100496038,
+          "validation": {
+            "all": {
+              "correct": 734,
+              "n": 798,
+              "accuracy": 91.97994987468671
+            },
+            "disagreement": {
+              "correct": 291,
+              "n": 355,
+              "accuracy": 81.97183098591549
+            }
+          }
+        }
+      ]
+    },
+    {
+      "seed": 43,
+      "best_epoch": 20,
+      "best_validation_key": [
+        294,
+        737
+      ],
+      "history": [
+        {
+          "epoch": 1,
+          "loss": 1.502040732922238,
+          "validation": {
+            "all": {
+              "correct": 720,
+              "n": 798,
+              "accuracy": 90.22556390977444
+            },
+            "disagreement": {
+              "correct": 277,
+              "n": 355,
+              "accuracy": 78.02816901408451
+            }
+          }
+        },
+        {
+          "epoch": 2,
+          "loss": 1.4683223505000085,
+          "validation": {
+            "all": {
+              "correct": 727,
+              "n": 798,
+              "accuracy": 91.10275689223057
+            },
+            "disagreement": {
+              "correct": 284,
+              "n": 355,
+              "accuracy": 80.0
+            }
+          }
+        },
+        {
+          "epoch": 3,
+          "loss": 1.4355522219941694,
+          "validation": {
+            "all": {
+              "correct": 733,
+              "n": 798,
+              "accuracy": 91.8546365914787
+            },
+            "disagreement": {
+              "correct": 290,
+              "n": 355,
+              "accuracy": 81.69014084507042
+            }
+          }
+        },
+        {
+          "epoch": 4,
+          "loss": 1.4031705923010247,
+          "validation": {
+            "all": {
+              "correct": 733,
+              "n": 798,
+              "accuracy": 91.8546365914787
+            },
+            "disagreement": {
+              "correct": 290,
+              "n": 355,
+              "accuracy": 81.69014084507042
+            }
+          }
+        },
+        {
+          "epoch": 5,
+          "loss": 1.382637625938961,
+          "validation": {
+            "all": {
+              "correct": 733,
+              "n": 798,
+              "accuracy": 91.8546365914787
+            },
+            "disagreement": {
+              "correct": 290,
+              "n": 355,
+              "accuracy": 81.69014084507042
+            }
+          }
+        },
+        {
+          "epoch": 6,
+          "loss": 1.3653637506232277,
+          "validation": {
+            "all": {
+              "correct": 734,
+              "n": 798,
+              "accuracy": 91.97994987468671
+            },
+            "disagreement": {
+              "correct": 291,
+              "n": 355,
+              "accuracy": 81.97183098591549
+            }
+          }
+        },
+        {
+          "epoch": 7,
+          "loss": 1.3536774527011233,
+          "validation": {
+            "all": {
+              "correct": 735,
+              "n": 798,
+              "accuracy": 92.10526315789474
+            },
+            "disagreement": {
+              "correct": 292,
+              "n": 355,
+              "accuracy": 82.25352112676056
+            }
+          }
+        },
+        {
+          "epoch": 8,
+          "loss": 1.3440449111719863,
+          "validation": {
+            "all": {
+              "correct": 734,
+              "n": 798,
+              "accuracy": 91.97994987468671
+            },
+            "disagreement": {
+              "correct": 291,
+              "n": 355,
+              "accuracy": 81.97183098591549
+            }
+          }
+        },
+        {
+          "epoch": 9,
+          "loss": 1.335379382613831,
+          "validation": {
+            "all": {
+              "correct": 731,
+              "n": 798,
+              "accuracy": 91.60401002506266
+            },
+            "disagreement": {
+              "correct": 288,
+              "n": 355,
+              "accuracy": 81.12676056338029
+            }
+          }
+        },
+        {
+          "epoch": 10,
+          "loss": 1.3277933011170315,
+          "validation": {
+            "all": {
+              "correct": 732,
+              "n": 798,
+              "accuracy": 91.72932330827068
+            },
+            "disagreement": {
+              "correct": 289,
+              "n": 355,
+              "accuracy": 81.40845070422536
+            }
+          }
+        },
+        {
+          "epoch": 11,
+          "loss": 1.3172789726096874,
+          "validation": {
+            "all": {
+              "correct": 730,
+              "n": 798,
+              "accuracy": 91.47869674185463
+            },
+            "disagreement": {
+              "correct": 287,
+              "n": 355,
+              "accuracy": 80.84507042253522
+            }
+          }
+        },
+        {
+          "epoch": 12,
+          "loss": 1.3068867066430494,
+          "validation": {
+            "all": {
+              "correct": 732,
+              "n": 798,
+              "accuracy": 91.72932330827068
+            },
+            "disagreement": {
+              "correct": 289,
+              "n": 355,
+              "accuracy": 81.40845070422536
+            }
+          }
+        },
+        {
+          "epoch": 13,
+          "loss": 1.3012612677523014,
+          "validation": {
+            "all": {
+              "correct": 734,
+              "n": 798,
+              "accuracy": 91.97994987468671
+            },
+            "disagreement": {
+              "correct": 291,
+              "n": 355,
+              "accuracy": 81.97183098591549
+            }
+          }
+        },
+        {
+          "epoch": 14,
+          "loss": 1.2965377666471383,
+          "validation": {
+            "all": {
+              "correct": 733,
+              "n": 798,
+              "accuracy": 91.8546365914787
+            },
+            "disagreement": {
+              "correct": 290,
+              "n": 355,
+              "accuracy": 81.69014084507042
+            }
+          }
+        },
+        {
+          "epoch": 15,
+          "loss": 1.284802178278581,
+          "validation": {
+            "all": {
+              "correct": 736,
+              "n": 798,
+              "accuracy": 92.23057644110276
+            },
+            "disagreement": {
+              "correct": 293,
+              "n": 355,
+              "accuracy": 82.53521126760563
+            }
+          }
+        },
+        {
+          "epoch": 16,
+          "loss": 1.2835126969340471,
+          "validation": {
+            "all": {
+              "correct": 735,
+              "n": 798,
+              "accuracy": 92.10526315789474
+            },
+            "disagreement": {
+              "correct": 292,
+              "n": 355,
+              "accuracy": 82.25352112676056
+            }
+          }
+        },
+        {
+          "epoch": 17,
+          "loss": 1.2730095323327963,
+          "validation": {
+            "all": {
+              "correct": 734,
+              "n": 798,
+              "accuracy": 91.97994987468671
+            },
+            "disagreement": {
+              "correct": 291,
+              "n": 355,
+              "accuracy": 81.97183098591549
+            }
+          }
+        },
+        {
+          "epoch": 18,
+          "loss": 1.2637570716605202,
+          "validation": {
+            "all": {
+              "correct": 734,
+              "n": 798,
+              "accuracy": 91.97994987468671
+            },
+            "disagreement": {
+              "correct": 291,
+              "n": 355,
+              "accuracy": 81.97183098591549
+            }
+          }
+        },
+        {
+          "epoch": 19,
+          "loss": 1.264595369836384,
+          "validation": {
+            "all": {
+              "correct": 736,
+              "n": 798,
+              "accuracy": 92.23057644110276
+            },
+            "disagreement": {
+              "correct": 293,
+              "n": 355,
+              "accuracy": 82.53521126760563
+            }
+          }
+        },
+        {
+          "epoch": 20,
+          "loss": 1.2554872182892198,
+          "validation": {
+            "all": {
+              "correct": 737,
+              "n": 798,
+              "accuracy": 92.35588972431077
+            },
+            "disagreement": {
+              "correct": 294,
+              "n": 355,
+              "accuracy": 82.8169014084507
+            }
+          }
+        },
+        {
+          "epoch": 21,
+          "loss": 1.2460060561869046,
+          "validation": {
+            "all": {
+              "correct": 733,
+              "n": 798,
+              "accuracy": 91.8546365914787
+            },
+            "disagreement": {
+              "correct": 290,
+              "n": 355,
+              "accuracy": 81.69014084507042
+            }
+          }
+        },
+        {
+          "epoch": 22,
+          "loss": 1.2414528187893166,
+          "validation": {
+            "all": {
+              "correct": 732,
+              "n": 798,
+              "accuracy": 91.72932330827068
+            },
+            "disagreement": {
+              "correct": 289,
+              "n": 355,
+              "accuracy": 81.40845070422536
+            }
+          }
+        },
+        {
+          "epoch": 23,
+          "loss": 1.233979859612843,
+          "validation": {
+            "all": {
+              "correct": 737,
+              "n": 798,
+              "accuracy": 92.35588972431077
+            },
+            "disagreement": {
+              "correct": 294,
+              "n": 355,
+              "accuracy": 82.8169014084507
+            }
+          }
+        },
+        {
+          "epoch": 24,
+          "loss": 1.2278099916961542,
+          "validation": {
+            "all": {
+              "correct": 730,
+              "n": 798,
+              "accuracy": 91.47869674185463
+            },
+            "disagreement": {
+              "correct": 287,
+              "n": 355,
+              "accuracy": 80.84507042253522
+            }
+          }
+        },
+        {
+          "epoch": 25,
+          "loss": 1.2238253663641672,
+          "validation": {
+            "all": {
+              "correct": 732,
+              "n": 798,
+              "accuracy": 91.72932330827068
+            },
+            "disagreement": {
+              "correct": 289,
+              "n": 355,
+              "accuracy": 81.40845070422536
+            }
+          }
+        },
+        {
+          "epoch": 26,
+          "loss": 1.2175717141475337,
+          "validation": {
+            "all": {
+              "correct": 733,
+              "n": 798,
+              "accuracy": 91.8546365914787
+            },
+            "disagreement": {
+              "correct": 290,
+              "n": 355,
+              "accuracy": 81.69014084507042
+            }
+          }
+        },
+        {
+          "epoch": 27,
+          "loss": 1.2107078666065267,
+          "validation": {
+            "all": {
+              "correct": 736,
+              "n": 798,
+              "accuracy": 92.23057644110276
+            },
+            "disagreement": {
+              "correct": 293,
+              "n": 355,
+              "accuracy": 82.53521126760563
+            }
+          }
+        },
+        {
+          "epoch": 28,
+          "loss": 1.2013228069469881,
+          "validation": {
+            "all": {
+              "correct": 733,
+              "n": 798,
+              "accuracy": 91.8546365914787
+            },
+            "disagreement": {
+              "correct": 290,
+              "n": 355,
+              "accuracy": 81.69014084507042
+            }
+          }
+        },
+        {
+          "epoch": 29,
+          "loss": 1.2017338496528087,
+          "validation": {
+            "all": {
+              "correct": 733,
+              "n": 798,
+              "accuracy": 91.8546365914787
+            },
+            "disagreement": {
+              "correct": 290,
+              "n": 355,
+              "accuracy": 81.69014084507042
+            }
+          }
+        },
+        {
+          "epoch": 30,
+          "loss": 1.1970233234822687,
+          "validation": {
+            "all": {
+              "correct": 733,
+              "n": 798,
+              "accuracy": 91.8546365914787
+            },
+            "disagreement": {
+              "correct": 290,
+              "n": 355,
+              "accuracy": 81.69014084507042
+            }
+          }
+        },
+        {
+          "epoch": 31,
+          "loss": 1.1881049886486883,
+          "validation": {
+            "all": {
+              "correct": 730,
+              "n": 798,
+              "accuracy": 91.47869674185463
+            },
+            "disagreement": {
+              "correct": 287,
+              "n": 355,
+              "accuracy": 80.84507042253522
+            }
+          }
+        },
+        {
+          "epoch": 32,
+          "loss": 1.1847686911857718,
+          "validation": {
+            "all": {
+              "correct": 733,
+              "n": 798,
+              "accuracy": 91.8546365914787
+            },
+            "disagreement": {
+              "correct": 290,
+              "n": 355,
+              "accuracy": 81.69014084507042
+            }
+          }
+        },
+        {
+          "epoch": 33,
+          "loss": 1.1774679910497334,
+          "validation": {
+            "all": {
+              "correct": 731,
+              "n": 798,
+              "accuracy": 91.60401002506266
+            },
+            "disagreement": {
+              "correct": 288,
+              "n": 355,
+              "accuracy": 81.12676056338029
+            }
+          }
+        },
+        {
+          "epoch": 34,
+          "loss": 1.1757571206859985,
+          "validation": {
+            "all": {
+              "correct": 731,
+              "n": 798,
+              "accuracy": 91.60401002506266
+            },
+            "disagreement": {
+              "correct": 288,
+              "n": 355,
+              "accuracy": 81.12676056338029
+            }
+          }
+        },
+        {
+          "epoch": 35,
+          "loss": 1.1784617583959762,
+          "validation": {
+            "all": {
+              "correct": 727,
+              "n": 798,
+              "accuracy": 91.10275689223057
+            },
+            "disagreement": {
+              "correct": 284,
+              "n": 355,
+              "accuracy": 80.0
+            }
+          }
+        },
+        {
+          "epoch": 36,
+          "loss": 1.1740580727499994,
+          "validation": {
+            "all": {
+              "correct": 732,
+              "n": 798,
+              "accuracy": 91.72932330827068
+            },
+            "disagreement": {
+              "correct": 289,
+              "n": 355,
+              "accuracy": 81.40845070422536
+            }
+          }
+        },
+        {
+          "epoch": 37,
+          "loss": 1.1697482839869149,
+          "validation": {
+            "all": {
+              "correct": 732,
+              "n": 798,
+              "accuracy": 91.72932330827068
+            },
+            "disagreement": {
+              "correct": 289,
+              "n": 355,
+              "accuracy": 81.40845070422536
+            }
+          }
+        },
+        {
+          "epoch": 38,
+          "loss": 1.165800979586179,
+          "validation": {
+            "all": {
+              "correct": 728,
+              "n": 798,
+              "accuracy": 91.2280701754386
+            },
+            "disagreement": {
+              "correct": 285,
+              "n": 355,
+              "accuracy": 80.28169014084507
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "selection": "highest disagreement validation count; then all validation count"
+}

@@ -1,0 +1,63 @@
+{
+  "frozen_at_utc": "2026-10-30T15:11:10.709743+00:00",
+  "recipe": "Three MLPs (75%) plus shallow LambdaRank trees (25%); mean-pool equal answers",
+  "seeds": [
+    2026,
+    2027,
+    2028
+  ],
+  "train_groups": 4755,
+  "hard_train_groups": 2114,
+  "neural": {
+    "hidden": 64,
+    "alpha": 10.0,
+    "epochs": 6,
+    "batch_size": 128,
+    "learning_rate": 0.0005,
+    "easy_group_weight": 0.25
+  },
+  "trees": {
+    "params": {
+      "objective": "lambdarank",
+      "learning_rate": 0.03,
+      "num_leaves": 7,
+      "min_data_in_leaf": 80,
+      "lambda_l2": 10.0,
+      "max_bin": 63,
+      "feature_fraction": 0.8,
+      "verbosity": -1,
+      "num_threads": 4,
+      "seed": 2026,
+      "deterministic": true,
+      "force_col_wise": true
+    },
+    "rounds": 400
+  },
+  "validation": {
+    "correct": 754,
+    "n": 798,
+    "accuracy": 94.48621553884712,
+    "hard_correct": 311,
+    "hard_n": 355,
+    "hard_accuracy": 87.60563380281691
+  },
+  "asset_sha256": {
+    "config.json": "9c16f007fab11539b9a1041db8917015ab48d5c180202784198c97c2f6afb800",
+    "mlp_2026.npz": "28556c2e5a79b18f4812348c6ab62a3bdcda2ae832f258b409f431eb25c075d1",
+    "mlp_2027.npz": "8903f2ec9b368e9db39e6f0e1be80949b4c14937ace9f42c4214737ff42693dd",
+    "mlp_2028.npz": "1bde2593180dfe8b41d7122d6a647a4c26d8f26097838e16ad036bee50ce65e0",
+    "rank_trees.npz": "2b2de3f6311e790cafcb052bca1b9cd0a9eb90466af76edb41c10158996132de"
+  },
+  "asset_bytes": 1851655,
+  "uncompressed_array_bytes": 1845212,
+  "numpy_parity_max_error": 1.1920928955078125e-07,
+  "tree_parity_max_error": 0.0,
+  "elapsed_seconds": 18.309143200000108,
+  "export_from_development_assets": false,
+  "python": "3.12.4",
+  "numpy": "1.26.4",
+  "scipy": "1.17.1",
+  "sklearn": "1.7.2",
+  "lightgbm": "4.6.0",
+  "test_access": "No test inputs or references loaded. Recipe selected using validation only; ties prefer first registered recipe."
+}

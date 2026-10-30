@@ -1,0 +1,35 @@
+{
+  "version": 3,
+  "members": [
+    {
+      "kind": "mlp",
+      "mode": "text",
+      "file": "mlp_2026.npz",
+      "weight": 0.25,
+      "seed": 2026
+    },
+    {
+      "kind": "mlp",
+      "mode": "text",
+      "file": "mlp_2027.npz",
+      "weight": 0.25,
+      "seed": 2027
+    },
+    {
+      "kind": "mlp",
+      "mode": "text",
+      "file": "mlp_2028.npz",
+      "weight": 0.25,
+      "seed": 2028
+    },
+    {
+      "kind": "trees",
+      "mode": "text",
+      "file": "rank_trees.npz",
+      "weight": 0.25
+    }
+  ],
+  "pool": true,
+  "vote_weight": 0.0,
+  "feature_version": 1
+}

@@ -1,0 +1,11 @@
+{
+  "name": "local",
+  "contextual": false,
+  "hidden": 96,
+  "dropout": 0.4,
+  "members": [
+    "seed_17.npz",
+    "seed_29.npz",
+    "seed_43.npz"
+  ]
+}

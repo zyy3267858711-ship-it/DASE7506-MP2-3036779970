@@ -1,0 +1,9 @@
+{
+  "model": "model.npz",
+  "feature": "hashed word/bigram EmbeddingBag + supplied vector",
+  "seeds_compared": [
+    17,
+    29,
+    43
+  ]
+}
